@@ -1,0 +1,26 @@
+/* GridLayout.css */
+
+.grid-layout-container {
+  padding: 10px;
+}
+
+.grid-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0; /* Remove default padding */
+}
+
+.card-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  color: #000; /* Ensure the text color is black for readability */
+}

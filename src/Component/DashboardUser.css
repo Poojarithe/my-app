@@ -1,0 +1,81 @@
+
+.dashboard-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.kpi-card {
+  height: 170px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.result-card {
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px; /* Adjusted margin-bottom */
+}
+
+.bar-chart-container {
+  height: 100%; /* Ensure the chart fills the container */
+}
+
+.horizontal-card {
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0px; 
+}
+
+.area-chart-container {
+  height: 100%; /* Adjust height to fit within card */
+}
+
+.vertical-card-container {
+  display: flex;
+  flex-direction: column;
+  list-style-position: inside;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.vertical-card {
+  height: 430px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  background-color: #ffa726;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff9800;
+}
+
+.additional-info-card {
+  margin-top: 0; /* Ensure no additional margin at the top */
+}

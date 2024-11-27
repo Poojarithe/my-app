@@ -1,0 +1,134 @@
+/* .dashboard-container {
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  .kpi-card {
+    background-color: #ffffff;
+    color: #333;
+    text-align: left;
+  }
+  
+  .Kpi-ValueCard{
+    text-align: center;
+  }
+
+  .large-card {
+    background-color: #ffffff;
+    color: #333;
+    height: 300px;
+  }
+  
+  .kpi-card .MuiTypography-h6 {
+    font-weight: bold;
+  }
+  
+  .kpi-card .MuiTypography-h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .large-card .MuiTypography-h6 {
+    font-weight: bold;
+  }
+  
+  .large-card .MuiCardContent-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+ */
+
+
+
+
+
+
+
+
+ .dashboard-container {
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  .kpi-card {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    position: relative; /* Ensure that text can be positioned absolutely */
+    height: 180px; /* Adjust the height as needed */
+    border-radius: 12px !important; /* Slightly smaller radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visual */
+    margin: auto;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Full height to fit the card */
+    padding: 0 20px; /* Padding to adjust inner spacing */
+    position: relative; /* Ensure text positioning works */
+  }
+  
+  .kpi-new-wins {
+    position: absolute; /* Position the text absolutely */
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    font-weight: 700 !important;
+  }
+  
+  .kpi-count {
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold;
+  }
+  
+  .kpi-value {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .arrow {
+    font-weight: 900 !important;
+    /* margin-right: 5px; */
+  }
+  
+  /* Large Card Styles */
+  .large-card {
+    background-color: #ffffff;
+    color: #333;
+    height: 380px; /* Adjust as needed */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 15px !important; /* Adjust for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+  
+  .large-card .MuiCardContent-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .large-card .MuiTypography-h6 {
+    font-weight: bold;
+  }
+   
+  .top-card-title {
+    font-size: 0.5rem; /* Adjust size as needed */
+    font-weight: bold; /* Makes the title bold */
+    color: #333; /* Dark color for better readability */
+    margin-bottom: 8px; /* Space below the title */
+    padding-top: 10;
+  }
+  .top-card .MuiCardContent-root {
+    padding: 13px; /* Reduce padding */
+  }
